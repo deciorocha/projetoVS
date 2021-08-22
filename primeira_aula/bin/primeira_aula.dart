@@ -13,7 +13,15 @@ void main(List<String> arguments) {
   var entradaSalario = stdin.readLineSync();
   var salario = double.parse(entradaSalario!);
 
-  print('Meu Nome é $nome, minha idade é $idade, meu salario é $salario');
+  dynamic y = 'Roberto'; // nasce como String;
+  y = 10; // Vira Numérico Inteiro;
+  y = 99.9; // Vira Número Double.
 
-  //print('Hello world: ${primeira_aula.calculate()}!');
+  print('Meu Nome é $nome,');
+  print(' minha idade é $idade,');
+  print(' meu salario é $salario');
+  print(' valor y $y');
+
+  print('Hello world: ${primeira_aula.calculate()}!');
+  print('Hello world: ${primeira_aula.mostreTudo()}!');
 }
