@@ -42,7 +42,7 @@ class ContactList extends StatelessWidget {
         future: buscar(),
         builder: (context, futuro) {
           if (futuro.hasData) {
-            var lista = futuro.data;
+            var lista = futuro.data as List<Map<String, dynamic>>;
             return Scaffold(
                 appBar: AppBar(
                   title: Text('Lista de Contatos'),
