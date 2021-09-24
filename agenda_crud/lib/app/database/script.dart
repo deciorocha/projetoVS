@@ -1,5 +1,5 @@
 final createTable = '''
-CREATE TABLE cotact(
+CREATE TABLE contact(
 id INT PRIMARY KEY, 
 nome VARCHAR(200) NOT NULL,
 telefone CHAR(16) NOT NULL,
